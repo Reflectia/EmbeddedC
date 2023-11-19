@@ -1,0 +1,96 @@
+Nadiia@DESKTOP-HMRK1C5 MINGW64 ~
+$ cd C:
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c
+$ cd EmbeddedC
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c/EmbeddedC
+$ git clone https://github.com/Reflectia/softwareDevelopmentTechLog.git
+Cloning into 'softwareDevelopmentTechLog'...
+remote: Enumerating objects: 302, done.
+remote: Counting objects: 100% (170/170), done.
+remote: Compressing objects: 100% (88/88), done.
+remote: Total 302 (delta 102), reused 142 (delta 82), pack-reused 132
+Receiving objects: 100% (302/302), 40.85 KiB | 1.41 MiB/s, done.
+Resolving deltas: 100% (141/141), done.
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c/EmbeddedC
+$ cd softwareDevelopmentTechLog
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c/EmbeddedC/softwareDevelopmentTechLog (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c/EmbeddedC/softwareDevelopmentTechLog (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ik11.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c/EmbeddedC/softwareDevelopmentTechLog (main)
+$ git add ik11.txt
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c/EmbeddedC/softwareDevelopmentTechLog (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ik11.txt
+
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c/EmbeddedC/softwareDevelopmentTechLog (main)
+$ git commit
+[main 57e1277] Modify ik11 file by Nadiia Kachurynets
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c/EmbeddedC/softwareDevelopmentTechLog (main)
+$ git log
+commit 57e1277f427893d513fb73a7c7646a9e586b4d69 (HEAD -> main)
+Author: Nadiia <nade4ka3@gmail.com>
+Date:   Fri Oct 13 12:59:50 2023 +0300
+
+    Modify ik11 file by Nadiia Kachurynets
+
+commit 852dbc81045b96d6a4fe6f6a609e1888e702d722 (origin/main, origin/HEAD)
+Author: Yulia Mikhaylenko <yuliamikhaylenko@ukr.net>
+Date:   Thu Oct 12 00:19:04 2023 +0300
+
+    Added information about student Yulia Mikhaylenko of group IO-13
+    Signed-off-by: Yulia Mikhaylenko <yuliamikhaylenko@ukr.net>
+
+commit 2fff3ac2511f10aad43fc311ca1b3d94e2365ef6
+Author: Taras Vytvytskyi <tarasvytvytskyy@gmail.com>
+Date:   Tue Oct 10 12:30:29 2023 +0300
+
+    Hello, Curel world v2
+    Sorted students by order in group
+
+    Signed-off-by: Taras Vytvytskyi <tarasvytvytskyy@gmail.com>
+
+commit 39e7bc1a71a500f2ba266f57fc872ce1ce2a467a
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c/EmbeddedC/softwareDevelopmentTechLog (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 386 bytes | 386.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Reflectia/softwareDevelopmentTechLog.git
+   852dbc8..57e1277  main -> main
+
+Nadiia@DESKTOP-HMRK1C5 MINGW64 /c/EmbeddedC/softwareDevelopmentTechLog (main)
+$
